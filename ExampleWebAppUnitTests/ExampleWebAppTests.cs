@@ -10,5 +10,10 @@ namespace ExampleWebAppUnitTests
         {
             Assert.True(true);
         }
+        [Fact]
+        public void FailingTest()
+        {
+            Assert.True(false);
+        }
     }
 }
